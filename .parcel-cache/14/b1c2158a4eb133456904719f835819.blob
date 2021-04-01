@@ -1,0 +1,2 @@
+!function(){document.querySelector(".recipe");fetch("https://api.edamam.com/search")}();
+//# sourceMappingURL=index.HASH_REF_cb32321f8f5f4f348f3c65a87ecf6db9.js.map
