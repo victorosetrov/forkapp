@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"3cmPV":[function(require,module,exports) {
+})({"55egf":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 1234;
+var HMR_PORT = 51276;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "dbdb59a57442ec168b528f9a63ea540c";
@@ -442,8 +442,11 @@ id) /*: string*/
 }
 
 },{}],"5sLSL":[function(require,module,exports) {
-!function(){document.querySelector(".recipe");fetch("https://api.edamam.com/search")}();
+!(function () {
+  document.querySelector('.recipe');
+  fetch(`https://forkify-api.herokuapp.com/v2/recipes/${id}`);
+})();
 
-},{}]},["3cmPV","5sLSL"], "5sLSL", "parcelRequire90e7")
+},{}]},["55egf","5sLSL"], "5sLSL", "parcelRequire90e7")
 
 //# sourceMappingURL=index.63ea540c.js.map
