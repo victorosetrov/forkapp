@@ -1,1 +1,0 @@
-!function(){document.querySelector(".recipe");fetch("https://api.edamam.com/search")}();
