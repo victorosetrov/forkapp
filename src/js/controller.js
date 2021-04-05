@@ -9,21 +9,23 @@ const recipeContainer = document.querySelector('.recipe');
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
+
     if (!id) return;
     recipeView.renderSpinner();
 
     await model.loadRecipe(id);
 
     recipeView.render(model.state.recipe);
-  } catch {
-    alert(err);
+  } catch (err) {
+    recipeView.renderError();
   }
 };
 
-['hashchange', 'load'].forEach(ev =>
-  window.addEventListener(ev, controlRecipes)
-);
+const init = function () {
+  recipeView.addHandlerRender(controlRecipes);
+};
 
+init();
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
