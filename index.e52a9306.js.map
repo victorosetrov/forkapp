@@ -1,1 +1,0 @@
-{"mappings":"AACEA,SAASC,cAAc,WACvBC,MAAAA,gDAAsDC","sources":["./index.627186de.js"],"sourcesContent":["!(function () {\n  document.querySelector('.recipe');\n  fetch(`https://forkify-api.herokuapp.com/v2/recipes/${id}`);\n})();\n//# sourceMappingURL=index.627186de.js.map\n"],"names":["document","querySelector","fetch","id"],"version":3,"file":"index.e52a9306.js.map"}
