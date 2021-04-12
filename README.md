@@ -1,3 +1,1 @@
-# forkify Project
-
-Recipe application with custom recipe uploads.
+https://stupefied-bardeen-87446e.netlify.app
